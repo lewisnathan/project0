@@ -1,4 +1,8 @@
-ul.navbar {
+ul {
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+ul.navigbar {
     list-style-type:none;
     margin:0;
     padding:0;
@@ -6,13 +10,13 @@ ul.navbar {
     background-color:navy;
   }
   
-  ul.navbar li {
+  ul.navigbar li {
     float:left;
     font-family:Arial, Helvetica, sans-serif;
     font-weight:bold;
   }
   
-  ul.navbar li a {
+  ul.navigbar li a {
     display:block;
     color:white;
     text-align:center;
@@ -27,12 +31,6 @@ ul.navbar {
   p {
       font-family:Arial, Helvetica, sans-serif;
   }
-  
-  p.main {
-    font-family:Arial, Helvetica, sans-serif;
-    font-weight:bold;
-    color:blue;
-}
 
 h1 {
   color:white;
@@ -63,4 +61,34 @@ table, th, td {
 .center {
   margin-left:auto;
   margin-right:auto;
+}
+
+#importantpositive {
+  font-weight:bold;
+  color:green;
+}
+
+#importantnegative {
+  font-weight:bold;
+  color:red;
+}
+
+@media screen and (max-width: 800px) {
+  ul.navbar li {
+    float: none;
+    width: 100%;
+  }
+}
+
+button {
+  background-color:blue;
+  color:white;
+  padding:5px;
+  align-items:center;
+  border-radius:5px;
+  border:none;
+}
+
+.row {
+  padding:5px;
 }

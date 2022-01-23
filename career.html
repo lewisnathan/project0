@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Career</title>
         <h1>Career</h1>
     </head>
     <body>
-        <ul class="navbar">
+        <ul class="navigbar">
             <li><a href="homepage.html">Home</a></li>
             <li><a href="interests.html">Interests</a></li>
             <li><a href="background.html">Background</a></li>
@@ -22,6 +24,10 @@
             As part of my mental assessment of what I may do with my life, I've compiled a table of potential career paths for myself and a list of positives and negatives
             of working that particular job.
         </p>
+        <p>
+            For reference, the bold, green positives are especially positive to me in a workplace setting, while the bold, red negatives are espcecially
+            negative for me in a workplace.
+        </p>
         <table class="center">
             <tr>
                 <th>Career</th>
@@ -32,14 +38,14 @@
                 <td>Land Surveyor</td>
                 <td>
                     <ul>
-                        <li>opportunity to work outdoors</li>
+                        <li id="importantpositive">opportunity to work outdoors</li>
                         <li>opportunity to travel</li>
-                        <li>opportunity for advancement</li>
+                        <li id="importantpositive">opportunity for advancement</li>
                     </ul>
                 </td>
                 <td>
                     <ul>
-                        <li>shift work/away from home</li>
+                        <li id="importantnegative">shift work/away from home</li>
                         <li>physical labor</li>
                         <li>many procedural guidelines</li>
                     </ul>
@@ -56,7 +62,7 @@
                 </td>
                 <td>
                     <ul>
-                        <li>office politics</li>
+                        <li id="importantnegative">office politics</li>
                         <li>additional experience required</li>
                         <li>option with least financial benefit</li>
                     </ul>
@@ -68,17 +74,20 @@
                     <ul>
                         <li>get to see space!</li>
                         <li>prestigous</li>
-                        <li>be part of social change</li>
+                        <li id="importantpositive">be part of social change</li>
                     </ul>
                 </td>
                 <td>
                     <ul>
                         <li>more experience needed</li>
-                        <li>more education needed</li>
+                        <li id="importantnegative">more education needed</li>
                         <li>gone from home for months at a time</li>
                     </ul>
                 </td>
             </tr>
         </table>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     </body>
 </html>
