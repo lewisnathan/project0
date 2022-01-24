@@ -1,0 +1,52 @@
+ul.navigbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: navy;
+}
+
+li a:hover {
+  background-color: blue;
+}
+
+h1 {
+  color: white;
+  text-align: left;
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 60px;
+  font-weight: bold;
+  background-color: blue;
+  margin: auto;
+}
+
+button {
+  background-color: blue !important;
+  color: white;
+  padding: 5px;
+  align-items: center;
+  border-radius: 5px;
+  border: none;
+}
+
+.main, .introductory {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.introductory {
+  background-color: orange;
+}
+
+.main {
+  background-color: yellow;
+}
+.main ul {
+  color: red;
+}
+
+div ul {
+  background-color: red;
+}
+
+/*# sourceMappingURL=style_vars.css.map */

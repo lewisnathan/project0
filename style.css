@@ -1,14 +1,6 @@
 ul {
   font-family:Arial, Helvetica, sans-serif;
 }
-
-ul.navigbar {
-    list-style-type:none;
-    margin:0;
-    padding:0;
-    overflow:hidden;
-    background-color:navy;
-  }
   
   ul.navigbar li {
     float:left;
@@ -23,25 +15,6 @@ ul.navigbar {
     padding:14px 16px;
     text-decoration:none;
   }
-  
-  li a:hover {
-    background-color:blue;
-  }
-
-  p {
-      font-family:Arial, Helvetica, sans-serif;
-  }
-
-h1 {
-  color:white;
-  text-align:left;
-  padding:20px;
-  font-family:Arial, Helvetica, sans-serif;
-  font-size:60px;
-  font-weight:bold;
-  background-color:blue;
-  margin:auto;
-}
 
 img {
   display: block;
@@ -78,15 +51,6 @@ table, th, td {
     float: none;
     width: 100%;
   }
-}
-
-button {
-  background-color:blue;
-  color:white;
-  padding:5px;
-  align-items:center;
-  border-radius:5px;
-  border:none;
 }
 
 .row {
